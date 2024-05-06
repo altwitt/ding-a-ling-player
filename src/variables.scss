@@ -1,0 +1,12 @@
+$fuchsia: #C93B76;
+$dark-gray: #212936;
+$light-gray: #4D5562;
+$white: #E5E7EB;
+
+// Desktop mixin
+
+@mixin desktop {
+  @media (min-width: 1024px) {
+    @content;
+  }
+}

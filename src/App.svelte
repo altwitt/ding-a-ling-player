@@ -87,9 +87,9 @@
 
     <div class="container">
         <div class="song-info">
-            <div class="cover">
-                <img src={currentSong.image} alt={currentSong.name} />
-            </div>
+          
+                
+            
            
                 <h4>{currentSong.name}</h4>
                 
@@ -103,6 +103,7 @@
                 aria-valuemin={0}
                 aria-valuenow={songProgress}
             >
+                <!-- svelte-ignore a11y-no-static-element-interactions -->
                 <div
                     class="progress-bar"
                     style="width: {songProgress}%"
